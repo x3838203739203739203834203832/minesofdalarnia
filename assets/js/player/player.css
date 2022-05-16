@@ -1,5 +1,4 @@
 .container-video {
-    margin: 100px auto 0px auto;
     width: 600px;
     position: relative;
     overflow: hidden;
@@ -202,7 +201,7 @@ body {
 @keyframes bodytrans {
 	from {
 		opacity: 0
-	} 
+	}
 
 	to {
 		opacity: 1
