@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://x3838203739203739203834203832.github.io/minesofdalarnia/assets/css/style.css?v=">
+        <link rel="stylesheet" href="http://localhost:4000/minesofdalarnia/assets/js/player/player.css">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup theme-color -->
@@ -71,6 +72,35 @@
             <li>Bomb Tool
               <ul>
                 <li>Unlimited Bombs</li>
+                <div class="container-video">
+    <video class="video" src="http://localhost:4000/minesofdalarnia/assets/videos/features/UnlimitedBombs.mp4?v="></video>
+    <div class="video-player-controls">
+        <div class="bar-video-player">
+            <div class="progess-bar-video-player"></div>
+        </div>
+        <div class="tool-video-player">
+            <div class="play-stop-video-player">
+                <i class="fas fa-play play-video"></i>
+                <i class="fas fa-pause pause-video"></i>
+            </div>
+            <div class="sound-video-player">
+                <i class="fas fa-volume-up volume-open"></i>
+                <i class="fas fa-volume-mute volume-close"></i>
+                <input type="range" min="0" max="10" value="10">
+            </div>
+            <div class="timer-video-player">
+                <span class="current-time-video"></span>
+                <span class="separator-time-video">/</span>
+                <span class="duration-time-video"></span>
+            </div>
+            <div class="full-screen-video-player">
+                <i class="fas fa-expand open-full-screen"></i>
+                <i class="fas fa-compress close-full-screen"></i>
+            </div>
+        </div>
+    </div>
+    <i class="fas fa-play play-center-video"></i>
+</div>
                 <iframe width="420" height="315" src="http://www.youtube.com/embed/TL0A2CPO0iM" frameborder="0" allowfullscreen></iframe>
                 <li>Bomb Explosion Area Expansion</li>
                 <iframe width="420" height="315" src="http://www.youtube.com/embed/4VzXcXxJSSU" frameborder="0" allowfullscreen></iframe>
@@ -149,5 +179,6 @@
   </footer>
 
     <script type="text/javascript" src="http://localhost:4000/minesofdalarnia/assets/plugins/node_modules/jquery/dist/jquery.min.js?v="></script>
+        <script type="text/javascript" src="http://localhost:4000/minesofdalarnia/assets/js/player/player.js"></script>
     </body>
 </html>
